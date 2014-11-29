@@ -29,3 +29,6 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done
+sudo apt-get install vim zsh guake curl
+./gnome-terminal-colors-solarized/install.sh 
+curl -L http://install.ohmyz.sh | sh
